@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="en">
+   <head><title>hyderabad</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+ <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
+   <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+       <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+       <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+   <link rel="stylesheet" type="text/css" href="index.css">
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+   
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+   
+    </head>
+    
+    <body>
+        
+        <div class="main_container" id="home">
+            <div class="navbar">
+            <div class="head">
+                <a href="#">Tourism</a>
+            </div>
+            <div class="navbar_items">
+                <ul>
+                    
+                    <li><a href="#">Sign Up</a></li>
+                    <li><a href="#"> Log in</a></li>
+                </ul>
+            </div>
+            </div></div>
+        <div class="banner_image fade-scroll">
+            <div class="banner_content">
+                <a href="#">   <span style="color:#FF0000">E</span>
+               <span style="color:#66CC66">x</span>
+    <span style="color:#FF9966">p</span>
+    <span style="color:darkcyan">l</span>
+    <span style="color:#FF0066">o</span>
+     <span style="color:#FF0000">r</span>
+    <span style="color:#66CC66">e</span>
+    <span style="color:#FF9966"> </span><br> 
+    <span style="color:darkcyan">H</span>
+    <span style="color:#FF0066">y</span>
+     <span style="color:#FF0000">d</span>
+    <span style="color:#66CC66">e</span>
+    <span style="color:#FF9966">r</span>
+    <span style="color:darkcyan">a</span>
+    <span style="color:#FF0066">b</span>
+    <span style="color:#66CC66">a</span>
+    <span style="color:#FF9966">d</span>
+               </a>
+            </div>
+        </div>
+      
+        <div class="container">
+            
+        <div class="about">
+            <h1 class="fade-scroll">About Us</h1>
+                <p  class="fade-scroll">The city of smiles, of lights, of a thousand faces, endearingly called the Pearl City, Hyderabad offers a variety of tourist attractions ranging from Heritage monuments, Lakes and Parks, Gardens and Resorts, Museums to delectable cuisine and a delightful shopping experience. To the traveller, Hyderabad offers a fascinating panorama of the past, with a richly mixed cultural and historical tradition spanning 400 colourful years. Some of the tourist attractions include.</p>
+            <div class="btn" ><a href="#">Travel Now</a></div>
+            </div>
+        
+            </div>
+       
+          <section class="data fade-scroll" data-aos="fade-left">
+        <img src="img/charminar1.jpg" alt="" />
+        <div class="caption">
+          <h3 data-aos="fade-out">Charminar</h3>
+          <p data-aos="fade-out">Charminar is a monument and a mosque, considered synonymous with the history of Hyderabad city. The majestic structure was completed in 1591 AD and it is believed that Mohammed QuliQutb Shahi, the fifth sultan of the Qutub Shahi dynasty had built the monument to commemorate the end of a deadly plague menace that had gripped the city then.</p>
+        </div>
+      </section>
+
+      <section class="data fade-scroll" data-aos="fade-right">
+        <img src="img/golconda.jpg" alt="" />
+        <div class="caption ">
+          <h3>Golconda</h3>
+          <p >Golconda Fort is located in the western part of Hyderabad city and is about 9 km from the Hussain Sagar Lake. The outer fort occupies an area of three square kilometers, which is 4.8 kilometers in length.</p>
+        </div>
+      </section>
+
+        
+        
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  
+            <script type="text/javascript">
+             $(function() {
+                
+                var documentEl = $(document),
+                    fadeElem = $('.fade-scroll');
+                
+                
+                documentEl.on('scroll', function() {
+                    var currScrollPos = documentEl.scrollTop();
+                    
+                    fadeElem.each(function() {
+                        var $this = $(this),
+                            elemOffsetTop = $this.offset().top;
+                        if (currScrollPos > elemOffsetTop) $this.css('opacity', 1 - (currScrollPos-elemOffsetTop)/400);
+                    }); 
+                });
+                
+            });
+        
+           
+            </script>
+            <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+  AOS.init({
+      duration:2000
+      });
+
+
+  </script>
+  <footer>
+      <h1>Tourism</h1>
+  </footer>
+
+    </body>
+</html>

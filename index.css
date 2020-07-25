@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Leckerli+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline:none;
+    list-style: none;
+    text-decoration: none;
+   
+}
+.main_container{
+    position: relative;
+   
+ 
+}
+    
+
+.navbar{
+    width: 100%;
+    height:65px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+      z-index:1;
+      position: fixed;
+    background-image: linear-gradient(to bottom,rgba(0,0,0,.5),transparent);
+    
+}
+.head a{
+    font-family: 'Leckerli One', cursive;
+    font-size: 38px;
+    color: brown;
+}
+.navbar .navbar_items ul{
+    display: flex;
+}
+.navbar .navbar_items ul li{
+    
+    margin: 0 10px;
+    
+}
+.navbar .navbar_items ul li a{
+    color:darkred;
+   font-weight: bold;
+   font-size: 18px;
+   float: right;
+}
+.banner_image{
+    background: url("img/bg3.jpg") no-repeat top center;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.banner_content {
+    text-align: center;
+    display: flex;
+    font-family: 'Lobster', cursive;
+    padding-top: 50px;
+      font-size: 38px;
+     
+}
+.banner_content a span{
+    line-height: 38px;
+    margin-bottom: 15px;
+}
+.about{
+    padding: 1% 10%;
+    text-align: center;
+    position: relative;
+}
+ 
+  
+.btn a{
+    display: block;
+    width: 180px;
+    height: 35px;
+    border:2px solid brown;
+    line-height: 35px;
+    font-size: 20px;
+    color: darkred;
+    margin: auto;
+}
+img {
+  width: 100%;
+}
+.data {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  background: #f1f1f1;
+  margin-bottom: 2rem;
+}
+
+.data h3 {
+    font-family: 'Rowdies', cursive;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 100px;
+  margin-bottom: 2rem;
+}
+
+.data img {
+  height: 350px;
+}
+
+.data div {
+  padding: 2rem;
+}
+
+.data:nth-child(even) img {
+  order: 2;
+}
+caption{
+    text-align: center;
+}
+footer{
+      width: 100%;
+    height:65px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+      z-index:1;
+      position: absolute;
+    background-image: linear-gradient(to bottom,rgba(0,0,0,.3),transparent);
+    
+}
+footer h1{
+    font-family: 'Leckerli One', cursive;
+    font-size: 38px;
+    color: brown;
+    text-align: center;
+   
+}
+@media(max-width:600px) {
+  .card {
+    display: block;
+  }
+}
